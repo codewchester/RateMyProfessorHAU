@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - RateMyProfessorHAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo_icon.png" alt="Logo Icon">
+                <span>RateMyProfessor<span class="red">HAU</span></span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-group" id="navGroup">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="about.html">About Us</a>
+                    <a href="profile.html">Profile</a>
+                </nav>
+                <div class="nav-buttons">
+                    <a href="review.html"><button class="submit-btn">Submit a review</button></a>
+                    <div class="auth-buttons">
+                        <a href="login.html"><button class="login-btn">Login</button></a>
+                        <a href="register.html"><button class="register-btn">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Courses Hero Section -->
+    <section class="courses-hero">
+        <div class="courses-hero-content">
+            <h1>Courses</h1>
+            
+            <!-- Search Bar -->
+            <div class="courses-search-container">
+                <select class="courses-dropdown">
+                    <option>ALL</option>
+                    <option>SOC</option>
+                    <option>SEA</option>
+                    <option>SBA</option>
+                    <option>SED</option>
+                    <option>CCJEF</option>
+                    <option>SNAMS</option>
+                    <option>SHTM</option>
+                    <option>SAS</option>
+                </select>
+                <input type="text" class="courses-search-input" placeholder="Search course">
+                <a href="courses.html"><button class="courses-search-btn">
+                    <img src="images/mag_glass.png" alt="Search">
+                </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professor Cards Section -->
+    <section class="professors-section">
+        <div class="container">
+            <!-- Sort By Dropdown -->
+            <div class="sort-container">
+                <select class="sort-dropdown">
+                    <option>Sort by</option>
+                    <option>Highest Rating</option>
+                    <option>Lowest Rating</option>
+                    <option>Most Reviews</option>
+                    <option>Least Reviews</option>
+                </select>
+            </div>
+
+            <!-- Professors Grid -->
+            <div class="professors-grid">
+                <!-- Professor Card 1 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 2 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 3 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 4 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 5 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 6 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 7 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professor Card 8 -->
+                <div class="professor-card">
+                    <div class="professor-header">
+                        <img src="images/teachers.png" alt="Professor Icon" class="professor-icon">
+                        <div class="professor-name-box">
+                            <h3>Professor</h3>
+                            <p>FN, LN</p>
+                        </div>
+                    </div>
+                    <div class="professor-details">
+                        <p class="top-tags-label">Top Tags:</p>
+                        <p class="tags">"Clear grader", "feedback", "efficient", "engaging", "fun"</p>
+                        <p class="my-review-label">My Review:</p>
+                        <p class="review-status">None</p>
+                    </div>
+                    <div class="professor-footer">
+                        <p class="reviews-label">Reviews:</p>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="rating-number">4.3</span>
+                            <span class="review-count">based on 21 reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h3>RateMyProfessorHAU</h3>
+                    <p class="tagline">Every Angelite, guided to excellence</p>
+                    <div class="social">
+                        <span>Stay connected:</span>
+                        <a href="#" aria-label="Facebook">
+                            <img src="images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <img src="images/twitter.png" alt="Twitter">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="#review">Review</a>
+                    <a href="courses.html">Courses</a>
+                </div>
+
+                <!-- Learn Column -->
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <a href="about.html">About us</a>
+                    <a href="#updates">Updates</a>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>Email:</p>
+                    <a href="mailto:hauprofrate@gmail.com">hauprofrate@gmail.com</a>
+                    <p>Phone:</p>
+                    <a href="tel:+639924304568">+639924304568</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2025 RateMyProfessorHAU, Inc.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

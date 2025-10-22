@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - RateMyProfessorHAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images/logo_icon.png" alt="Logo Icon">
+            <span>RateMyProfessor<span class="red">HAU</span></span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="login-container">
+            <!-- Left Side - Form -->
+            <div class="login-form">
+                <h1>Register</h1>
+                <p class="subtitle">Please enter your details</p>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="firstname">First name</label>
+                            <input type="text" id="firstname" name="firstname" required>
+                        </div>
+
+                        <div class="form-group half">
+                            <label for="lastname">Last name</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">HAU Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <button type="submit" class="sign-in-btn">Register</button>
+
+                    <p class="register-link">Already a member? <a href="login.html">Login</a></p>
+                </form>
+            </div>
+
+            <!-- Right Side - Image -->
+            <div class="login-image">
+                <img src="images/login1.png" alt="Student with backpack">
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

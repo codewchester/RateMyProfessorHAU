@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - RateMyProfessorHAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo_icon.png" alt="Logo Icon">
+                <span>RateMyProfessor<span class="red">HAU</span></span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-group" id="navGroup">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="about.html">About Us</a>
+                    <a href="profile.html">Profile</a>
+                </nav>
+                <div class="nav-buttons">
+                    <a href="review.html"><button class="submit-btn">Submit a review</button></a>
+                    <div class="auth-buttons">
+                        <a href="login.html"><button class="login-btn">Login</button></a>
+                        <a href="register.html"><button class="register-btn">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Search -->
+    <section class="home-hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>Welcome, FN</h1>
+                <p class="hero-subtitle">Find the best educators and share your experiences.</p>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <select class="search-dropdown">
+                        <option>ALL</option>
+                        <option>SOC</option>
+                        <option>SEA</option>
+                        <option>SBA</option>
+                        <option>SED</option>
+                        <option>CCJEF</option>
+                        <option>SNAMS</option>
+                        <option>SHTM</option>
+                        <option>SAS</option>
+                    </select>
+                    <input type="text" class="search-input" placeholder="Search professor or course">
+                    <a href="courses.html"><button class="search-btn">
+                        <img src="images/mag_glass.png" alt="Search">
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Reviews Section -->
+    <section class="recent-reviews">
+        <div class="container">
+            <h2>Recent Reviews</h2>
+            
+            <div class="reviews-grid">
+                <!-- Review Card 1 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/user.png" alt="User Avatar" class="avatar">
+                        <div class="review-info">
+                            <h3>Andrew G. Lee</h3>
+                            <div class="stars">
+                                <span>★★★★★</span>
+                            </div>
+                            <p class="time">an hour ago</p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <div class="professor-info">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <strong>Prof. Michelle Dee</strong>
+                        </div>
+                        <p class="review-text">"An engaging lecturer with deep understanding of psychology. Highly recommend!"</p>
+                    </div>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/user.png" alt="User Avatar" class="avatar">
+                        <div class="review-info">
+                            <h3>Vanessa O. Monroe</h3>
+                            <div class="stars">
+                                <span>★★★★</span>
+                            </div>
+                            <p class="time">an hour ago</p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <div class="professor-info">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <strong>Prof. Jane Tran</strong>
+                        </div>
+                        <p class="review-text">"Makes complex topics easy to understand. Gives reasonable amount of time to finish tasks."</p>
+                    </div>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/user.png" alt="User Avatar" class="avatar">
+                        <div class="review-info">
+                            <h3>Jane R. Queensly</h3>
+                            <div class="stars">
+                                <span>★★★★</span><span class="half-star">☆</span>
+                            </div>
+                            <p class="time">two hours ago</p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <div class="professor-info">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <strong>Prof. Chris Mane</strong>
+                        </div>
+                        <p class="review-text">"He has a fast-paced teaching style that I'm not super fond of. He makes learning fun and exciting."</p>
+                    </div>
+                </div>
+
+                <!-- Review Card 4 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/user.png" alt="User Avatar" class="avatar">
+                        <div class="review-info">
+                            <h3>Brett K. Poller</h3>
+                            <div class="stars">
+                                <span>★★</span>
+                            </div>
+                            <p class="time">5 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <div class="professor-info">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <strong>Prof. Harry Foe</strong>
+                        </div>
+                        <p class="review-text">"He's usually late to class. He gives us self-learning modules instead of teaching us directly. He tends to just read off of the slides instead of ..."</p>
+                        <a href="#" class="see-more">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h3>RateMyProfessorHAU</h3>
+                    <p class="tagline">Every Angelite, guided to excellence</p>
+                    <div class="social">
+                        <span>Stay connected:</span>
+                        <a href="" aria-label="Facebook">
+                            <img src="images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <img src="images/twitter.png" alt="Twitter">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="#review">Review</a>
+                    <a href="courses.html">Courses</a>
+                </div>
+
+                <!-- Learn Column -->
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <a href="about.html">About us</a>
+                    <a href="#updates">Updates</a>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>Email:</p>
+                    <a href="mailto:hauprofrate@gmail.com">hauprofrate@gmail.com</a>
+                    <p>Phone:</p>
+                    <a href="tel:+639924304568">+639924304568</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2025 RateMyProfessorHAU, Inc.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

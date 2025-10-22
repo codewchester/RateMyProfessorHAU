@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - RateMyProfessorHAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo_icon.png" alt="Logo Icon">
+                <span>RateMyProfessor<span class="red">HAU</span></span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-group" id="navGroup">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="about.html">About Us</a>
+                    <a href="profile.html">Profile</a>
+                </nav>
+                <div class="nav-buttons">
+                    <a href="review.html"><button class="submit-btn">Submit a review</button></a>
+                    <div class="auth-buttons">
+                        <a href="login.html"><button class="login-btn">Login</button></a>
+                        <a href="register.html"><button class="register-btn">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Profile Hero Section -->
+    <section class="profile-hero">
+        <div class="profile-hero-overlay"></div>
+    </section>
+
+    <!-- Profile Content Section -->
+    <section class="profile-section">
+        <div class="profile-container">
+            
+            <!-- Profile Card -->
+            <div class="profile-card">
+                <button class="edit-btn">Edit</button>
+                
+                <div class="profile-avatar">
+                    <img src="images/user.png" alt="User Avatar">
+                </div>
+                
+                <div class="profile-info">
+                    <h1>FN, MI, LN</h1>
+                    <p class="profile-details">2nd Year | School of Computing</p>
+                    <p class="profile-reviews">8 Reviews</p>
+                </div>
+            </div>
+
+            <!-- Profile Tabs -->
+            <div class="profile-tabs">
+                <button class="tab-btn active" data-tab="ratings">Ratings</button>
+                <button class="tab-btn" data-tab="courses">Courses</button>
+                <button class="tab-btn" data-tab="favorites">Favorites</button>
+            </div>
+
+            <!-- Tab Content: Ratings -->
+            <div class="tab-content active" id="ratings-tab">
+                <div class="reviews-cards-grid">
+                    
+                    <!-- Review Card 1 -->
+                    <div class="profile-review-card">
+                        <div class="review-card-header">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <div class="review-card-title">
+                                <h3>Professor</h3>
+                                <p>FN, LN</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="review-course"><strong>Course:</strong> 6ADMATHS</p>
+                            <p class="review-rating-label"><strong>My Rating:</strong></p>
+                            <div class="review-rating-stars">
+                                <span class="star-filled">&#9733;</span>
+                                <span class="rating-value">4.3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 2 -->
+                    <div class="profile-review-card">
+                        <div class="review-card-header">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <div class="review-card-title">
+                                <h3>Professor</h3>
+                                <p>FN, LN</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="review-course"><strong>Course:</strong> 6COARC</p>
+                            <p class="review-rating-label"><strong>My Rating:</strong></p>
+                            <div class="review-rating-stars">
+                                <span class="star-filled">&#9733;</span>
+                                <span class="rating-value">4.3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 3 -->
+                    <div class="profile-review-card">
+                        <div class="review-card-header">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <div class="review-card-title">
+                                <h3>Professor</h3>
+                                <p>FN, LN</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="review-course"><strong>Course:</strong> 2LINALGEB</p>
+                            <p class="review-rating-label"><strong>My Rating:</strong></p>
+                            <div class="review-rating-stars">
+                                <span class="star-filled">&#9733;</span>
+                                <span class="rating-value">4.3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 4 -->
+                    <div class="profile-review-card">
+                        <div class="review-card-header">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <div class="review-card-title">
+                                <h3>Professor</h3>
+                                <p>FN, LN</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="review-course"><strong>Course:</strong> 6ADMATHS</p>
+                            <p class="review-rating-label"><strong>My Rating:</strong></p>
+                            <div class="review-rating-stars">
+                                <span class="star-filled">&#9733;</span>
+                                <span class="rating-value">4.3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 5 -->
+                    <div class="profile-review-card">
+                        <div class="review-card-header">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <div class="review-card-title">
+                                <h3>Professor</h3>
+                                <p>FN, LN</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="review-course"><strong>Course:</strong> 6COARC</p>
+                            <p class="review-rating-label"><strong>My Rating:</strong></p>
+                            <div class="review-rating-stars">
+                                <span class="star-filled">&#9733;</span>
+                                <span class="rating-value">4.3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 6 -->
+                    <div class="profile-review-card">
+                        <div class="review-card-header">
+                            <img src="images/teachers.png" alt="Professor Icon">
+                            <div class="review-card-title">
+                                <h3>Professor</h3>
+                                <p>FN, LN</p>
+                            </div>
+                        </div>
+                        <div class="review-card-body">
+                            <p class="review-course"><strong>Course:</strong> 2LINALGEB</p>
+                            <p class="review-rating-label"><strong>My Rating:</strong></p>
+                            <div class="review-rating-stars">
+                                <span class="star-filled">&#9733;</span>
+                                <span class="rating-value">4.3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tab Content: Courses -->
+            <div class="tab-content" id="courses-tab">
+                <div class="reviews-cards-grid">
+                    <p class="empty-message">Your courses will appear here.</p>
+                </div>
+            </div>
+
+            <!-- Tab Content: Favorites -->
+            <div class="tab-content" id="favorites-tab">
+                <div class="reviews-cards-grid">
+                    <p class="empty-message">Your favorite professors will appear here.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h3>RateMyProfessorHAU</h3>
+                    <p class="tagline">Every Angelite, guided to excellence</p>
+                    <div class="social">
+                        <span>Stay connected:</span>
+                        <a href="#" aria-label="Facebook">
+                            <img src="images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <img src="images/twitter.png" alt="Twitter">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="review.html">Review</a>
+                    <a href="courses.html">Courses</a>
+                </div>
+
+                <!-- Learn Column -->
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <a href="about.html">About us</a>
+                    <a href="#updates">Updates</a>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>Email:</p>
+                    <a href="mailto:hauprofrate@gmail.com">hauprofrate@gmail.com</a>
+                    <p>Phone:</p>
+                    <a href="tel:+639924304568">+639924304568</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2025 RateMyProfessorHAU, Inc.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

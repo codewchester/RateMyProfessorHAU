@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - RateMyProfessorHAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images/logo_icon.png" alt="Logo Icon">
+            <span>RateMyProfessor<span class="red">HAU</span></span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="login-container">
+            <!-- Left Side - Form -->
+            <div class="login-form">
+                <h1>Welcome, Angelite!</h1>
+                <p class="subtitle">Please enter your details</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="email">HAU Email</label>
+                        <input type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                pattern="^[a-zA-Z0-9._%+-]+@student\.hau\.edu\.ph$"
+                                title="Please use your HAU student email (e.g., name@student.hau.edu.ph)">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="form-options">
+                        <div class="remember">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember for 30 days</label>
+                        </div>
+                        <a href="#" class="forgot-link">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="sign-in-btn">Sign in</button>
+
+                    <p class="register-link">Not a member? <a href="register.html">Register now</a></p>
+                </form>
+            </div>
+
+            <!-- Right Side - Image -->
+            <div class="login-image">
+                <img src="images/login1.png" alt="Student with backpack">
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
