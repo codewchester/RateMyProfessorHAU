@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Review - RateMyProfessorHAU</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo_icon.png" alt="Logo Icon">
+                <span>RateMyProfessor<span class="red">HAU</span></span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-group" id="navGroup">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="about.html">About Us</a>
+                    <a href="profile.html">Profile</a>
+                </nav>
+                <div class="nav-buttons">
+                    <a href="review.html"><button class="submit-btn">Submit a review</button></a>
+                    <div class="auth-buttons">
+                        <a href="login.html"><button class="login-btn">Login</button></a>
+                        <a href="register.html"><button class="register-btn">Register</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Review Form Hero Section -->
+    <section class="review-hero">
+        <div class="review-hero-overlay">
+            <h1>Form</h1>
+        </div>
+    </section>
+
+    <!-- Review Form Section -->
+    <section class="review-form-section">
+        <div class="review-container">
+            <form id="reviewForm" class="review-form">
+                
+                <!-- Professor Search Section -->
+                <div class="professor-search-section">
+                    <div class="professor-icon-box">
+                        <img src="images/teachers.png" alt="Professor Icon">
+                    </div>
+                    <div class="professor-search-group">
+                        <h2>Professor</h2>
+                        <div class="search-input-group">
+                            <input type="text" placeholder="Search Professor" class="professor-search-input">
+                            <button type="button" class="search-icon-btn">
+                                <img src="images/mag_glass.png" alt="Search">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="form-divider">
+
+                <!-- Course Selection -->
+                <div class="course-selection">
+                    <label for="course">Course:</label>
+                    <select id="course" name="course" required>
+                        <option value="6ADMATHS">6ADMATHS</option>
+                        <option value="CALCULUS1">CALCULUS1</option>
+                        <option value="STATISTICS">STATISTICS</option>
+                        <option value="ALGEBRA">ALGEBRA</option>
+                    </select>
+                </div>
+
+                <!-- Review Section -->
+                <div class="review-section-title">
+                    <h2>Review</h2>
+                </div>
+
+                <!-- Rating Categories -->
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Teaching Effectiveness</h3>
+                        <p>How well does the professor explain and help students understand the subject?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Clarity of Communication</h3>
+                        <p>How clearly are lectures, instructions, and expectations delivered?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Engagement & Enthusiasm</h3>
+                        <p>Does the professor make the class interesting and keep students engaged?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Fairness of Grading</h3>
+                        <p>Are grading policies transparent, consistent, and fair?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Availability & Support</h3>
+                        <p>Is the professor approachable and helpful outside of class (consultations, emails, etc.)?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Course Organization</h3>
+                        <p>Is the course structured logically with clear objectives, pacing, and materials?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Knowledge of Subject</h3>
+                        <p>Does the professor demonstrate strong expertise in the subject matter?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <div class="rating-category">
+                    <div class="category-label">
+                        <h3>Respect & Professionalism</h3>
+                        <p>Does the professor treat students respectfully and maintain professionalism?</p>
+                    </div>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9734;</span>
+                        <span class="star" data-rating="2">&#9734;</span>
+                        <span class="star" data-rating="3">&#9734;</span>
+                        <span class="star" data-rating="4">&#9734;</span>
+                        <span class="star" data-rating="5">&#9734;</span>
+                    </div>
+                </div>
+
+                <!-- Additional Feedback -->
+                <div class="feedback-section">
+                    <h2>Additional Feedback</h2>
+                    <p>What did you like and dislike about this professor? Things to improve? Would you recommend?</p>
+                    <textarea placeholder="What I like and dislike about this professor is..." rows="8"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="submit-button-container">
+                    <button type="submit" class="submit-review-btn">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Column -->
+                <div class="footer-brand">
+                    <h3>RateMyProfessorHAU</h3>
+                    <p class="tagline">Every Angelite, guided to excellence</p>
+                    <div class="social">
+                        <span>Stay connected:</span>
+                        <a href="#" aria-label="Facebook">
+                            <img src="images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <img src="images/twitter.png" alt="Twitter">
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Explore Column -->
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="review.html">Review</a>
+                    <a href="courses.html">Courses</a>
+                </div>
+
+                <!-- Learn Column -->
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <a href="about.html">About us</a>
+                    <a href="#updates">Updates</a>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>Email:</p>
+                    <a href="mailto:hauprofrate@gmail.com">hauprofrate@gmail.com</a>
+                    <p>Phone:</p>
+                    <a href="tel:+639924304568">+639924304568</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>&copy; 2025 RateMyProfessorHAU, Inc.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
